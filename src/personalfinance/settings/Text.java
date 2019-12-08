@@ -50,6 +50,20 @@ final public class Text {
         data.put("NOVEMBER", "November");
         data.put("DECEMBER", "December");
 
+
+        data.put("ERROR", "Error");
+        data.put("ERROR_TITLE_EMPTY", "You have not entered a name!");
+        data.put("ERROR_IS_EXISTS", "This entry already exists!");
+        data.put("ERROR_DATE_FORMAT", "Invalid date format!");
+        data.put("ERROR_CODE_EMPTY", "Вы не указали код!");
+        data.put("ERROR_CURRENCY_EMPTY", "You did not specify the currency!");
+        data.put("ERROR_ARTICLE_EMPTY", "You did not specify an article!");
+        data.put("ERROR_ACCOUNT_EMPTY", "You did not specify an account!");
+        data.put("ERROR_RATE_INCORRECT", "Invalid rate value!");
+        data.put("ERROR_AMOUNT_FORMAT", "Invalid amount format!");
+        data.put("ERROR_NO_BASE_CURRENCY", "Base currency required! First set this parameter in another currency, then it will be removed in this automatically.");
+        data.put("ERROR_UPDATE_CURRENCIES", "Error updating currencies!");
+
     }
 
 
