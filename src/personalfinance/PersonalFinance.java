@@ -1,5 +1,6 @@
 package personalfinance;
 
+import personalfinance.settings.Settings;
 import personalfinance.settings.Text;
 
 import java.awt.*;
@@ -15,10 +16,12 @@ public class PersonalFinance {
     }
 
     private static void init(){
-        Text.init();
-        GraphicsEnvironment ge=GraphicsEnvironment.getLocalGraphicsEnvironment();
+
         try {
-            ge.registerFont(Font.createFont(Font.TRUETYPE_FONT, new File("fonts/Roboto-light.ttf")));
+            Settings.init();
+            Text.init();
+            GraphicsEnvironment ge=GraphicsEnvironment.getLocalGraphicsEnvironment();
+            ge.registerFont(Font.createFont(Font.TRUETYPE_FONT, Settings.FONT_ROBOTO_LIGHT));
         } catch (FontFormatException e) {
             e.printStackTrace();
         } catch (IOException e) {
