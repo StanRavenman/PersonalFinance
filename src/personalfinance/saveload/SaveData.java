@@ -39,7 +39,7 @@ public final class SaveData {
         this.accounts.sort((Account a, Account a1) -> a.getTitle().compareToIgnoreCase(a1.getTitle()));
         this.transactions.sort((Transaction t, Transaction t1) -> (int) (t1.getDate().compareTo(t.getDate())));
         this.transfers.sort((Transfer t, Transfer t1) -> (int) (t1.getDate().compareTo(t.getDate())));
-        this.currencies.sort(new Comparator<Currency>() {
+/*        this.currencies.sort(new Comparator<Currency>() {
             @Override
             public int compare(Currency c, Currency c1) {
                 if (c.isBase()) return -1;
@@ -50,7 +50,7 @@ public final class SaveData {
                 }
                 return c.getTitle().compareToIgnoreCase(c1.getTitle());
             }
-        });
+        });*/
     }
 
     public void save() {
