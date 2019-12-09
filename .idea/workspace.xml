@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e5730aab-24c5-41a9-a93a-4f3fb498a151" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/model/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/model/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/model/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/model/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/model/Common.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/model/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/model/Currency.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/personalfinance/saveload/SaveData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/saveload/SaveData.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

@@ -4,6 +4,7 @@ package personalfinance.model;
 import java.util.List;
 import java.util.Objects;
 import personalfinance.exception.ModelException;
+import personalfinance.saveload.SaveData;
 //import personalfinance.saveload.SaveData;
 
 public class Account extends Common {
@@ -107,7 +108,7 @@ public class Account extends Common {
         }
     }
 
-    /*@Override
+    @Override
     public void postAdd(SaveData sd) {
         setAmountFromTransactionsAndTransfers(sd.getTransactions(), sd.getTransfers());
     }
@@ -121,7 +122,7 @@ public class Account extends Common {
             if (t.getToAccount().equals(sd.getOldCommon())) t.setToAccount(this);
         }
         setAmountFromTransactionsAndTransfers(sd.getTransactions(), sd.getTransfers());
-    }*/
+    }
 
 
 

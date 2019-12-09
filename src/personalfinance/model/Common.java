@@ -1,7 +1,9 @@
 package personalfinance.model;
 
 
-    abstract public class Common {
+import personalfinance.saveload.SaveData;
+
+abstract public class Common {
 
         public Common() {}
 
@@ -9,9 +11,9 @@ package personalfinance.model;
             return null;
         }
 
-        public void postAdd() {}
-        public void postEdit() {}
-        public void postRemove() {}
+        public void postAdd(SaveData saveData) {}
+        public void postEdit(SaveData saveData) {}
+        public void postRemove(SaveData saveData) {}
 
     }
 
