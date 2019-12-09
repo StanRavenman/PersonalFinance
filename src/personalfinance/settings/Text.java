@@ -7,7 +7,9 @@ final public class Text {
     private static final HashMap<String, String> data = new HashMap();
 
     public static String get(String key) {
-        return data.get(key);
+        if (data.containsKey(key)) return data.get(key);
+        System.out.println("Such key in Text doesn't exist !"); // Для отладки
+        return "";
     }
 
     public static String[] getMonths() {
@@ -63,6 +65,13 @@ final public class Text {
         data.put("ERROR_AMOUNT_FORMAT", "Invalid amount format!");
         data.put("ERROR_NO_BASE_CURRENCY", "Base currency required! First set this parameter in another currency, then it will be removed in this automatically.");
         data.put("ERROR_UPDATE_CURRENCIES", "Error updating currencies!");
+
+
+        data.put("YES", "Yes");
+        data.put("NO", "No");
+
+
+
 
     }
 
