@@ -9,7 +9,7 @@ import javax.swing.WindowConstants;
 import personalfinance.settings.Style;
 import personalfinance.settings.Text;
 
-public final class MainFrame extends JFrame  {
+public final class MainFrame extends JFrame implements Refresh  {
 
     private final GridBagConstraints constraints;
 
@@ -77,4 +77,9 @@ public final class MainFrame extends JFrame  {
         return rightPanel;*/
     }
 
+    @Override
+    public void refresh() {
+        SwingUtilities.updateComponentTreeUI(this);
+        pack();
+    }
 }
