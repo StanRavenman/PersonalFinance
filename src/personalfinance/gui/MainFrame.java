@@ -37,6 +37,7 @@ public final class MainFrame extends JFrame implements Refresh  {
         constraints.gridy = 0;
         constraints.gridwidth = 2;
 
+
 /*        tb = new MainToolBar(new MainToolBarHandler(this));
         add(tb, constraints);*/
 
