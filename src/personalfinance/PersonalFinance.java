@@ -1,6 +1,7 @@
 package personalfinance;
 
 import personalfinance.exception.ModelException;
+import personalfinance.gui.MainFrame;
 import personalfinance.model.*;
 import personalfinance.saveload.SaveData;
 import personalfinance.settings.Format;
@@ -18,20 +19,21 @@ public class PersonalFinance {
     public static void main(String[] args) throws Exception {
 
         init();
-
-       SaveData sd = SaveData.getInstance();
+        MainFrame frame = new MainFrame();
+        frame.setVisible(true);
+        SaveData sd = SaveData.getInstance();
         sd.updateCurrencies();
-        System.out.println(sd.getCurrencies());
+        System.out.println(sd);
         //testModel();
 
     }
 
-    private static void init(){
+    private static void init() {
 
         try {
             Settings.init();
             Text.init();
-            GraphicsEnvironment ge=GraphicsEnvironment.getLocalGraphicsEnvironment();
+            GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
             ge.registerFont(Font.createFont(Font.TRUETYPE_FONT, Settings.FONT_ROBOTO_LIGHT));
         } catch (FontFormatException e) {
             e.printStackTrace();

@@ -5,9 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/PersonalFinance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/PersonalFinance.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/model/Currency.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/model/Currency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/saveload/SaveData$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/saveload/SaveData$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/saveload/SaveData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/saveload/SaveData.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/saveload/Wrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/saveload/Wrapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saves/default.myrus" beforeDir="false" afterPath="$PROJECT_DIR$/saves/default.myrus" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/personalfinance/PersonalFinance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/PersonalFinance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/personalfinance/model/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/model/Currency.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/personalfinance/saveload/SaveData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/saveload/SaveData.java" afterDir="false" />
