@@ -24,6 +24,9 @@ public final class MainFrame extends JFrame implements Refresh  {
     public MainFrame() {
         super(Text.get("PROGRAM_NAME"));
 
+        MainFileChooser fc=new MainFileChooser(this);
+        System.out.println(fc.save());
+
         setResizable(false);
         setIconImage(Style.ICON_MAIN.getImage());
         setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
