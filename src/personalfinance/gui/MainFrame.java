@@ -7,6 +7,7 @@ import javax.swing.SwingUtilities;
 import javax.swing.WindowConstants;
 
 import personalfinance.gui.menu.MainMenu;
+import personalfinance.gui.toolbar.MainToolBar;
 import personalfinance.settings.Style;
 import personalfinance.settings.Text;
 
@@ -14,9 +15,10 @@ public final class MainFrame extends JFrame implements Refresh  {
 
     private final GridBagConstraints constraints;
     private final MainMenu mb;
+    private final MainToolBar tb;
 /*    private final LeftPanel leftPanel;
     private RightPanel rightPanel;
-    private final MainToolBar tb;*/
+    */
 
 
     public MainFrame() {
@@ -38,8 +40,8 @@ public final class MainFrame extends JFrame implements Refresh  {
         constraints.gridwidth = 2;
 
 
-/*        tb = new MainToolBar(new MainToolBarHandler(this));
-        add(tb, constraints);*/
+        tb = new MainToolBar();
+        add(tb, constraints);
 
         constraints.gridy = 1;
         constraints.gridwidth = 1;
