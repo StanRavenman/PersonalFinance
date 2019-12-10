@@ -8,7 +8,7 @@ import personalfinance.settings.Text;
 public final class MainToolBar extends AbstractToolBar {
 
     public MainToolBar() {
-        super();
+        super(Style.BORDER_MAIN_TOOLBAR);
         init();
     }
 

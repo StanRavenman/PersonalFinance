@@ -7,16 +7,20 @@ import javax.swing.SwingConstants;
 import javax.swing.border.EmptyBorder;
 import personalfinance.gui.MainButton;
 import personalfinance.gui.Refresh;
+
+import java.awt.*;
 //import personalfinance.gui.handler.Handler;
 
 abstract public class AbstractToolBar extends JPanel implements Refresh {
 
     //private final Handler handler;
 
-    public AbstractToolBar() {
+    public AbstractToolBar(EmptyBorder border) {
         super();
+        setBorder(border);
 
-//        setBorder(border);
+
+
     }
 
     abstract protected void init();
