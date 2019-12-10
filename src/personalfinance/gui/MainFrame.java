@@ -6,12 +6,17 @@ import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
 import javax.swing.WindowConstants;
 
+import personalfinance.gui.menu.MainMenu;
 import personalfinance.settings.Style;
 import personalfinance.settings.Text;
 
 public final class MainFrame extends JFrame implements Refresh  {
 
     private final GridBagConstraints constraints;
+    private final MainMenu mb;
+/*    private final LeftPanel leftPanel;
+    private RightPanel rightPanel;
+    private final MainToolBar tb;*/
 
 
     public MainFrame() {
@@ -21,8 +26,8 @@ public final class MainFrame extends JFrame implements Refresh  {
         setIconImage(Style.ICON_MAIN.getImage());
         setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
 
-        /*mb = new MainMenu(this);
-        setJMenuBar(mb);*/
+        mb = new MainMenu(this);
+        setJMenuBar(mb);
 
         setLayout(new GridBagLayout());
 
@@ -80,6 +85,8 @@ public final class MainFrame extends JFrame implements Refresh  {
     @Override
     public void refresh() {
         SwingUtilities.updateComponentTreeUI(this);
+        mb.refresh();
+
         pack();
     }
 }

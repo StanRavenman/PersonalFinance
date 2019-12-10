@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e5730aab-24c5-41a9-a93a-4f3fb498a151" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/MainFrame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/personalfinance/gui/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/gui/MainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/settings/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/settings/Text.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
