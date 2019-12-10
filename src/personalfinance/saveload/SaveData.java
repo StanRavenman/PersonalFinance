@@ -1,3 +1,8 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package personalfinance.saveload;
 
 import java.util.ArrayList;
@@ -8,6 +13,10 @@ import personalfinance.exception.ModelException;
 import personalfinance.model.*;
 
 
+/**
+ *
+ * @author Admin
+ */
 public final class SaveData {
 
     private static SaveData instance;
@@ -34,12 +43,23 @@ public final class SaveData {
         }
     }
 
+    public void clear() {
+        articles.clear();
+        currencies.clear();
+        accounts.clear();
+        transactions.clear();
+        transfers.clear();
+    }
+
+
+
+
     private void sort() {
         this.articles.sort((Article a, Article a1) -> a.getTitle().compareToIgnoreCase(a1.getTitle()));
         this.accounts.sort((Account a, Account a1) -> a.getTitle().compareToIgnoreCase(a1.getTitle()));
         this.transactions.sort((Transaction t, Transaction t1) -> (int) (t1.getDate().compareTo(t.getDate())));
         this.transfers.sort((Transfer t, Transfer t1) -> (int) (t1.getDate().compareTo(t.getDate())));
-/*        this.currencies.sort(new Comparator<Currency>() {
+        this.currencies.sort(new Comparator<Currency>() {
             @Override
             public int compare(Currency c, Currency c1) {
                 if (c.isBase()) return -1;
@@ -50,8 +70,11 @@ public final class SaveData {
                 }
                 return c.getTitle().compareToIgnoreCase(c1.getTitle());
             }
-        });*/
+        });
     }
+
+
+
 
     public void save() {
         SaveLoad.save(this);
@@ -66,7 +89,6 @@ public final class SaveData {
         if (instance == null) instance = new SaveData();
         return instance;
     }
-
 
     public Filter getFilter() {
         return filter;
@@ -92,26 +114,24 @@ public final class SaveData {
         return transfers;
     }
 
-
-
     public void setArticles(List<Article> articles) {
-        this.articles = articles;
+        if (articles != null) this.articles = articles;
     }
 
     public void setCurrencies(List<Currency> currencies) {
-        this.currencies = currencies;
+        if (currencies != null) this.currencies = currencies;
     }
 
     public void setAccounts(List<Account> accounts) {
-        this.accounts = accounts;
+        if (accounts != null) this.accounts = accounts;
     }
 
     public void setTransactions(List<Transaction> transactions) {
-        this.transactions = transactions;
+        if (transactions != null) this.transactions = transactions;
     }
 
     public void setTransfers(List<Transfer> transfers) {
-        this.transfers = transfers;
+        if (transfers != null) this.transfers = transfers;
     }
 
     public Currency getBaseCurrency() {
@@ -174,6 +194,20 @@ public final class SaveData {
         saved = false;
     }
 
+    @Override
+    public String toString() {
+        return "SaveData{" + "articles=" + articles + ", currencies=" + currencies + ", accounts=" + accounts + ", transactions=" + transactions + ", transfers=" + transfers + '}';
+    }
+
+    public void updateCurrencies() throws Exception {
+        HashMap<String, Double> rates = RateCurrency.getRates(getBaseCurrency());
+        for (Currency c : currencies)
+            c.setRate(rates.get(c.getCode()));
+        for (Account a : accounts)
+            a.getCurrency().setRate(rates.get(a.getCurrency().getCode()));
+        saved = false;
+    }
+
     private List getRef(Common c) {
         if (c instanceof Account) return accounts;
         else if (c instanceof Article) return articles;
@@ -183,12 +217,6 @@ public final class SaveData {
         return null;
     }
 
-    @Override
-    public String toString() {
-        return "SaveData{" + "articles=" + articles + ", currencies=" + currencies + ", accounts=" + accounts + ", transactions=" + transactions + ", transfers=" + transfers + '}';
-    }
-
-
+/*    public void edit(personalfinance.model.Common common, personalfinance.model.Common commonFromForm) {
+    }*/
 }
-
-

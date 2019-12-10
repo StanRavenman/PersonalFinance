@@ -51,7 +51,7 @@ public class Wrapper {
         this.transfers = transfers;
     }
 
-    @XmlElement(name = "currencies")
+    @XmlElement(name = "currency")
     public List<Currency> getCurrencies() {
         return currencies;
     }

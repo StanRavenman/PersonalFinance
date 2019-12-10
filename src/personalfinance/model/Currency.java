@@ -1,10 +1,18 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package personalfinance.model;
 
+import java.util.Objects;
 import personalfinance.exception.ModelException;
 import personalfinance.saveload.SaveData;
 
-import java.util.Objects;
-
+/**
+ *
+ * @author Admin
+ */
 public class Currency extends Common {
 
     private String title;
@@ -19,6 +27,13 @@ public class Currency extends Common {
         if (title.length() == 0) throw new ModelException(ModelException.TITLE_EMPTY);
         if (code.length() == 0) throw new ModelException(ModelException.CODE_EMPTY);
         if (rate <= 0) throw new ModelException(ModelException.RATE_INCORRECT);
+
+        this.title = title;
+        this.code = code;
+        this.rate = rate;
+        this.on = on;
+        this.base = base;
+        if (this.base) this.on = true;
     }
 
     public String getTitle() {
@@ -100,8 +115,6 @@ public class Currency extends Common {
         return rate / currency.rate;
     }
 
-
-
     @Override
     public void postAdd(SaveData sd) {
         clearBase(sd);
@@ -136,10 +149,5 @@ public class Currency extends Common {
             }
         }
     }
-
-
-
-
-
 
 }

@@ -4,18 +4,14 @@
     <list default="true" id="e5730aab-24c5-41a9-a93a-4f3fb498a151" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/PersonalFinance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/PersonalFinance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/model/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/model/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/model/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/model/Article.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/model/Common.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/model/Common.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/model/Currency.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/model/Currency.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/model/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/model/Transaction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/model/Transfer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/model/Transfer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/saveload/SaveData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/saveload/SaveData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/settings/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/settings/Text.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/saveload/Wrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/saveload/Wrapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/saves/default.myrus" beforeDir="false" afterPath="$PROJECT_DIR$/saves/default.myrus" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/personalfinance/PersonalFinance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/PersonalFinance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/model/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/model/Currency.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/personalfinance/saveload/SaveData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/saveload/SaveData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/personalfinance/settings/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/settings/Text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/saveload/Wrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/saveload/Wrapper.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,16 +102,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/personalfinance/model/Currency.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

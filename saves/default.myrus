@@ -2,27 +2,33 @@
 <data>
     <accounts>
         <currency>
-            <base>false</base>
-            <on>false</on>
-            <rate>0.0</rate>
+            <base>true</base>
+            <code>RUB</code>
+            <on>true</on>
+            <rate>1.0</rate>
+            <title>Rubl</title>
         </currency>
         <startAmount>1000.0</startAmount>
         <title>Portmone</title>
     </accounts>
     <accounts>
         <currency>
-            <base>false</base>
-            <on>false</on>
-            <rate>0.0</rate>
+            <base>true</base>
+            <code>RUB</code>
+            <on>true</on>
+            <rate>1.0</rate>
+            <title>Rubl</title>
         </currency>
         <startAmount>0.0</startAmount>
         <title>Card Visa</title>
     </accounts>
     <accounts>
         <currency>
-            <base>false</base>
-            <on>false</on>
-            <rate>0.0</rate>
+            <base>true</base>
+            <code>RUB</code>
+            <on>true</on>
+            <rate>1.0</rate>
+            <title>Rubl</title>
         </currency>
         <startAmount>100000.0</startAmount>
         <title>Bank deposit (RUB)</title>
@@ -30,8 +36,10 @@
     <accounts>
         <currency>
             <base>false</base>
-            <on>false</on>
-            <rate>0.0</rate>
+            <code>USD</code>
+            <on>true</on>
+            <rate>65.0</rate>
+            <title>Dollar</title>
         </currency>
         <startAmount>0.0</startAmount>
         <title>Bank deposit (USD)</title>
@@ -51,32 +59,42 @@
     <articles>
         <title>Deposit interests</title>
     </articles>
-    <currencies>
+    <currency>
+        <base>true</base>
+        <code>RUB</code>
+        <on>true</on>
+        <rate>1.0</rate>
+        <title>Rubl</title>
+    </currency>
+    <currency>
         <base>false</base>
-        <on>false</on>
-        <rate>0.0</rate>
-    </currencies>
-    <currencies>
+        <code>USD</code>
+        <on>true</on>
+        <rate>65.0</rate>
+        <title>Dollar</title>
+    </currency>
+    <currency>
         <base>false</base>
+        <code>EUR</code>
         <on>false</on>
-        <rate>0.0</rate>
-    </currencies>
-    <currencies>
+        <rate>75.0</rate>
+        <title>Euro</title>
+    </currency>
+    <currency>
         <base>false</base>
+        <code>UAH</code>
         <on>false</on>
-        <rate>0.0</rate>
-    </currencies>
-    <currencies>
-        <base>false</base>
-        <on>false</on>
-        <rate>0.0</rate>
-    </currencies>
+        <rate>2.5</rate>
+        <title>Grivna</title>
+    </currency>
     <transactions>
         <account>
             <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -85,15 +103,17 @@
         <article>
             <title>Salary</title>
         </article>
-        <date>2019-12-09T22:07:05.018+02:00</date>
+        <date>2019-12-10T20:29:44.637+02:00</date>
         <notice></notice>
     </transactions>
     <transactions>
         <account>
             <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -102,15 +122,17 @@
         <article>
             <title>Food</title>
         </article>
-        <date>2019-12-09T22:07:05.018+02:00</date>
+        <date>2019-12-10T20:29:44.637+02:00</date>
         <notice>for weekend</notice>
     </transactions>
     <transactions>
         <account>
             <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
             </currency>
             <startAmount>1000.0</startAmount>
             <title>Portmone</title>
@@ -119,15 +141,17 @@
         <article>
             <title>Utilities</title>
         </article>
-        <date>2019-12-09T22:07:05.018+02:00</date>
+        <date>2019-12-10T20:29:44.637+02:00</date>
         <notice>basic flat</notice>
     </transactions>
     <transactions>
         <account>
             <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
             </currency>
             <startAmount>1000.0</startAmount>
             <title>Portmone</title>
@@ -136,15 +160,17 @@
         <article>
             <title>Utilities</title>
         </article>
-        <date>2019-12-09T22:07:05.018+02:00</date>
+        <date>2019-12-10T20:29:44.637+02:00</date>
         <notice>second flat</notice>
     </transactions>
     <transactions>
         <account>
             <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
             </currency>
             <startAmount>100000.0</startAmount>
             <title>Bank deposit (RUB)</title>
@@ -153,15 +179,17 @@
         <article>
             <title>Deposit interests</title>
         </article>
-        <date>2019-12-09T22:07:05.018+02:00</date>
+        <date>2019-12-10T20:29:44.637+02:00</date>
         <notice></notice>
     </transactions>
     <transactions>
         <account>
             <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -170,15 +198,17 @@
         <article>
             <title>Salary</title>
         </article>
-        <date>2019-11-09T22:07:05.018+02:00</date>
+        <date>2019-11-10T20:29:44.637+02:00</date>
         <notice></notice>
     </transactions>
     <transactions>
         <account>
             <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
             </currency>
             <startAmount>100000.0</startAmount>
             <title>Bank deposit (RUB)</title>
@@ -187,236 +217,910 @@
         <article>
             <title>Deposit interests</title>
         </article>
-        <date>2019-11-09T22:07:05.018+02:00</date>
+        <date>2019-11-10T20:29:44.637+02:00</date>
         <notice></notice>
     </transactions>
     <transactions>
         <account>
             <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>0.0</startAmount>
+            <title>Card Visa</title>
+        </account>
+        <amount>-219.0</amount>
+        <article>
+            <title>Dinning room</title>
+        </article>
+        <date>2019-12-02T05:40:57.888+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
             </currency>
             <startAmount>1000.0</startAmount>
             <title>Portmone</title>
         </account>
-        <amount>-425.0</amount>
+        <amount>-129.0</amount>
         <article>
             <title>Food</title>
         </article>
-        <date>2019-11-26T14:08:25.370+02:00</date>
+        <date>2019-11-13T08:24:45.899+02:00</date>
         <notice></notice>
     </transactions>
     <transactions>
         <account>
             <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>0.0</startAmount>
+            <title>Card Visa</title>
+        </account>
+        <amount>-409.0</amount>
+        <article>
+            <title>Dinning room</title>
+        </article>
+        <date>2019-11-11T20:35:24.783+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
             </currency>
             <startAmount>1000.0</startAmount>
             <title>Portmone</title>
         </account>
-        <amount>-912.0</amount>
+        <amount>-795.0</amount>
         <article>
-            <title>Dinning room</title>
+            <title>Food</title>
         </article>
-        <date>2019-11-13T08:43:24.053+02:00</date>
+        <date>2019-12-03T22:47:45.151+02:00</date>
         <notice></notice>
     </transactions>
     <transactions>
         <account>
             <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
             </currency>
             <startAmount>1000.0</startAmount>
             <title>Portmone</title>
         </account>
-        <amount>-329.0</amount>
+        <amount>-731.0</amount>
         <article>
             <title>Food</title>
         </article>
-        <date>2019-12-02T03:25:33.193+02:00</date>
+        <date>2019-12-03T23:36:44.689+02:00</date>
         <notice></notice>
     </transactions>
     <transactions>
         <account>
             <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
         </account>
-        <amount>-921.0</amount>
+        <amount>-708.0</amount>
         <article>
             <title>Food</title>
         </article>
-        <date>2019-12-03T15:29:42.700+02:00</date>
+        <date>2019-11-23T09:07:29.639+02:00</date>
         <notice></notice>
     </transactions>
     <transactions>
         <account>
             <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
         </account>
-        <amount>-55.0</amount>
+        <amount>-601.0</amount>
         <article>
             <title>Dinning room</title>
         </article>
-        <date>2019-11-20T19:56:40.861+02:00</date>
+        <date>2019-11-17T14:38:59.327+02:00</date>
         <notice></notice>
     </transactions>
     <transactions>
         <account>
             <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
         </account>
-        <amount>-183.0</amount>
+        <amount>-367.0</amount>
         <article>
-            <title>Dinning room</title>
+            <title>Food</title>
         </article>
-        <date>2019-11-17T20:41:59.340+02:00</date>
+        <date>2019-11-27T07:23:48.849+02:00</date>
         <notice></notice>
     </transactions>
     <transactions>
         <account>
             <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
         </account>
-        <amount>-407.0</amount>
+        <amount>-506.0</amount>
         <article>
-            <title>Dinning room</title>
+            <title>Food</title>
         </article>
-        <date>2019-12-03T21:06:31.761+02:00</date>
+        <date>2019-11-11T10:56:26.637+02:00</date>
         <notice></notice>
     </transactions>
     <transactions>
         <account>
             <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
             </currency>
             <startAmount>1000.0</startAmount>
             <title>Portmone</title>
         </account>
-        <amount>-748.0</amount>
+        <amount>-449.0</amount>
         <article>
-            <title>Food</title>
+            <title>Dinning room</title>
         </article>
-        <date>2019-12-09T21:57:09.442+02:00</date>
+        <date>2019-11-21T14:02:59.799+02:00</date>
         <notice></notice>
     </transactions>
     <transactions>
         <account>
             <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
             </currency>
             <startAmount>1000.0</startAmount>
             <title>Portmone</title>
         </account>
-        <amount>-737.0</amount>
+        <amount>-602.0</amount>
         <article>
             <title>Dinning room</title>
         </article>
-        <date>2019-12-01T21:00:36.396+02:00</date>
+        <date>2019-11-25T23:35:40.493+02:00</date>
         <notice></notice>
     </transactions>
     <transactions>
         <account>
             <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
             </currency>
-            <startAmount>0.0</startAmount>
-            <title>Card Visa</title>
+            <startAmount>1000.0</startAmount>
+            <title>Portmone</title>
         </account>
-        <amount>-638.0</amount>
-        <article>
-            <title>Dinning room</title>
-        </article>
-        <date>2019-11-21T03:39:24.300+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>0.0</startAmount>
-            <title>Card Visa</title>
-        </account>
-        <amount>-657.0</amount>
+        <amount>-124.0</amount>
         <article>
             <title>Food</title>
         </article>
-        <date>2019-11-27T02:53:47.355+02:00</date>
+        <date>2019-11-21T23:55:24.996+02:00</date>
         <notice></notice>
     </transactions>
     <transactions>
         <account>
             <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
             </currency>
-            <startAmount>0.0</startAmount>
-            <title>Card Visa</title>
+            <startAmount>1000.0</startAmount>
+            <title>Portmone</title>
         </account>
-        <amount>-770.0</amount>
-        <article>
-            <title>Food</title>
-        </article>
-        <date>2019-12-02T13:38:55.532+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>0.0</startAmount>
-            <title>Card Visa</title>
-        </account>
-        <amount>-401.0</amount>
+        <amount>-644.0</amount>
         <article>
             <title>Dinning room</title>
         </article>
-        <date>2019-12-03T22:02:02.753+02:00</date>
+        <date>2019-12-02T17:16:35.264+02:00</date>
         <notice></notice>
     </transactions>
     <transactions>
         <account>
             <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>1000.0</startAmount>
+            <title>Portmone</title>
+        </account>
+        <amount>-24.0</amount>
+        <article>
+            <title>Dinning room</title>
+        </article>
+        <date>2019-11-11T13:27:52.626+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>1000.0</startAmount>
+            <title>Portmone</title>
+        </account>
+        <amount>-968.0</amount>
+        <article>
+            <title>Food</title>
+        </article>
+        <date>2019-11-14T12:13:50.502+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>0.0</startAmount>
+            <title>Card Visa</title>
+        </account>
+        <amount>-738.0</amount>
+        <article>
+            <title>Food</title>
+        </article>
+        <date>2019-11-15T06:21:53.967+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>0.0</startAmount>
+            <title>Card Visa</title>
+        </account>
+        <amount>-506.0</amount>
+        <article>
+            <title>Food</title>
+        </article>
+        <date>2019-12-02T19:49:50.126+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>0.0</startAmount>
+            <title>Card Visa</title>
+        </account>
+        <amount>-893.0</amount>
+        <article>
+            <title>Dinning room</title>
+        </article>
+        <date>2019-11-14T14:49:13.855+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>1000.0</startAmount>
+            <title>Portmone</title>
+        </account>
+        <amount>-42.0</amount>
+        <article>
+            <title>Dinning room</title>
+        </article>
+        <date>2019-11-30T18:50:32.107+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>0.0</startAmount>
+            <title>Card Visa</title>
+        </account>
+        <amount>-209.0</amount>
+        <article>
+            <title>Dinning room</title>
+        </article>
+        <date>2019-11-16T21:35:47.641+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>1000.0</startAmount>
+            <title>Portmone</title>
+        </account>
+        <amount>-193.0</amount>
+        <article>
+            <title>Dinning room</title>
+        </article>
+        <date>2019-11-12T23:35:22.619+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>1000.0</startAmount>
+            <title>Portmone</title>
+        </account>
+        <amount>-92.0</amount>
+        <article>
+            <title>Dinning room</title>
+        </article>
+        <date>2019-11-16T12:05:21.516+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>1000.0</startAmount>
+            <title>Portmone</title>
+        </account>
+        <amount>-836.0</amount>
+        <article>
+            <title>Dinning room</title>
+        </article>
+        <date>2019-12-05T19:12:30.292+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>0.0</startAmount>
+            <title>Card Visa</title>
+        </account>
+        <amount>-628.0</amount>
+        <article>
+            <title>Food</title>
+        </article>
+        <date>2019-11-28T05:34:09.491+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>1000.0</startAmount>
+            <title>Portmone</title>
+        </account>
+        <amount>-952.0</amount>
+        <article>
+            <title>Dinning room</title>
+        </article>
+        <date>2019-12-04T07:10:35.320+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>0.0</startAmount>
+            <title>Card Visa</title>
+        </account>
+        <amount>-84.0</amount>
+        <article>
+            <title>Food</title>
+        </article>
+        <date>2019-12-04T22:47:43.510+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>0.0</startAmount>
+            <title>Card Visa</title>
+        </account>
+        <amount>-105.0</amount>
+        <article>
+            <title>Dinning room</title>
+        </article>
+        <date>2019-11-14T08:18:28.614+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>1000.0</startAmount>
+            <title>Portmone</title>
+        </account>
+        <amount>-243.0</amount>
+        <article>
+            <title>Food</title>
+        </article>
+        <date>2019-11-14T11:11:10.123+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>0.0</startAmount>
+            <title>Card Visa</title>
+        </account>
+        <amount>-39.0</amount>
+        <article>
+            <title>Food</title>
+        </article>
+        <date>2019-11-21T02:23:55.752+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>0.0</startAmount>
+            <title>Card Visa</title>
+        </account>
+        <amount>-184.0</amount>
+        <article>
+            <title>Food</title>
+        </article>
+        <date>2019-11-23T00:44:10.588+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>0.0</startAmount>
+            <title>Card Visa</title>
+        </account>
+        <amount>-109.0</amount>
+        <article>
+            <title>Food</title>
+        </article>
+        <date>2019-12-07T11:42:40.834+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>0.0</startAmount>
+            <title>Card Visa</title>
+        </account>
+        <amount>-357.0</amount>
+        <article>
+            <title>Dinning room</title>
+        </article>
+        <date>2019-12-05T07:51:57.440+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>0.0</startAmount>
+            <title>Card Visa</title>
+        </account>
+        <amount>-515.0</amount>
+        <article>
+            <title>Dinning room</title>
+        </article>
+        <date>2019-11-18T19:29:05.524+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>0.0</startAmount>
+            <title>Card Visa</title>
+        </account>
+        <amount>-37.0</amount>
+        <article>
+            <title>Food</title>
+        </article>
+        <date>2019-11-13T08:23:24.058+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>0.0</startAmount>
+            <title>Card Visa</title>
+        </account>
+        <amount>-571.0</amount>
+        <article>
+            <title>Food</title>
+        </article>
+        <date>2019-11-22T02:39:37.453+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>0.0</startAmount>
+            <title>Card Visa</title>
+        </account>
+        <amount>-527.0</amount>
+        <article>
+            <title>Food</title>
+        </article>
+        <date>2019-12-09T00:47:41.678+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>0.0</startAmount>
+            <title>Card Visa</title>
+        </account>
+        <amount>-480.0</amount>
+        <article>
+            <title>Dinning room</title>
+        </article>
+        <date>2019-11-21T10:00:24.350+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>0.0</startAmount>
+            <title>Card Visa</title>
+        </account>
+        <amount>-675.0</amount>
+        <article>
+            <title>Food</title>
+        </article>
+        <date>2019-12-08T01:00:38.475+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>0.0</startAmount>
+            <title>Card Visa</title>
+        </account>
+        <amount>-322.0</amount>
+        <article>
+            <title>Dinning room</title>
+        </article>
+        <date>2019-11-12T12:50:07.169+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>0.0</startAmount>
+            <title>Card Visa</title>
+        </account>
+        <amount>-593.0</amount>
+        <article>
+            <title>Dinning room</title>
+        </article>
+        <date>2019-11-24T13:51:56.186+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>0.0</startAmount>
+            <title>Card Visa</title>
+        </account>
+        <amount>-257.0</amount>
+        <article>
+            <title>Food</title>
+        </article>
+        <date>2019-11-13T11:29:29.028+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>0.0</startAmount>
+            <title>Card Visa</title>
+        </account>
+        <amount>-634.0</amount>
+        <article>
+            <title>Food</title>
+        </article>
+        <date>2019-11-19T14:24:39.447+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>0.0</startAmount>
+            <title>Card Visa</title>
+        </account>
+        <amount>-137.0</amount>
+        <article>
+            <title>Dinning room</title>
+        </article>
+        <date>2019-12-09T04:48:33.412+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>0.0</startAmount>
+            <title>Card Visa</title>
+        </account>
+        <amount>-13.0</amount>
+        <article>
+            <title>Dinning room</title>
+        </article>
+        <date>2019-11-17T08:18:12.230+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>0.0</startAmount>
+            <title>Card Visa</title>
+        </account>
+        <amount>-14.0</amount>
+        <article>
+            <title>Food</title>
+        </article>
+        <date>2019-12-01T17:43:07.563+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>1000.0</startAmount>
+            <title>Portmone</title>
+        </account>
+        <amount>-637.0</amount>
+        <article>
+            <title>Food</title>
+        </article>
+        <date>2019-12-07T12:25:56.645+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
+            </currency>
+            <startAmount>1000.0</startAmount>
+            <title>Portmone</title>
+        </account>
+        <amount>-269.0</amount>
+        <article>
+            <title>Food</title>
+        </article>
+        <date>2019-11-19T10:11:25.890+02:00</date>
+        <notice></notice>
+    </transactions>
+    <transactions>
+        <account>
+            <currency>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -425,628 +1129,56 @@
         <article>
             <title>Dinning room</title>
         </article>
-        <date>2019-11-22T23:49:26.579+02:00</date>
+        <date>2019-11-23T00:58:49.501+02:00</date>
         <notice></notice>
     </transactions>
     <transactions>
         <account>
             <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
         </account>
-        <amount>-887.0</amount>
-        <article>
-            <title>Food</title>
-        </article>
-        <date>2019-11-26T01:08:33.649+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>0.0</startAmount>
-            <title>Card Visa</title>
-        </account>
-        <amount>-594.0</amount>
-        <article>
-            <title>Food</title>
-        </article>
-        <date>2019-11-28T18:55:44.555+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
-        </account>
-        <amount>-744.0</amount>
+        <amount>-323.0</amount>
         <article>
             <title>Dinning room</title>
         </article>
-        <date>2019-11-23T04:35:29.879+02:00</date>
+        <date>2019-11-21T06:42:28.050+02:00</date>
         <notice></notice>
     </transactions>
     <transactions>
         <account>
             <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
             </currency>
             <startAmount>1000.0</startAmount>
             <title>Portmone</title>
         </account>
-        <amount>-109.0</amount>
-        <article>
-            <title>Food</title>
-        </article>
-        <date>2019-11-23T01:42:28.818+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
-        </account>
-        <amount>-863.0</amount>
+        <amount>-351.0</amount>
         <article>
             <title>Dinning room</title>
         </article>
-        <date>2019-11-30T13:32:39.635+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>0.0</startAmount>
-            <title>Card Visa</title>
-        </account>
-        <amount>-47.0</amount>
-        <article>
-            <title>Dinning room</title>
-        </article>
-        <date>2019-11-24T22:35:30.489+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>0.0</startAmount>
-            <title>Card Visa</title>
-        </account>
-        <amount>-236.0</amount>
-        <article>
-            <title>Dinning room</title>
-        </article>
-        <date>2019-11-28T12:14:17.775+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
-        </account>
-        <amount>-497.0</amount>
-        <article>
-            <title>Dinning room</title>
-        </article>
-        <date>2019-12-01T18:06:58.095+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>0.0</startAmount>
-            <title>Card Visa</title>
-        </account>
-        <amount>-131.0</amount>
-        <article>
-            <title>Food</title>
-        </article>
-        <date>2019-11-21T07:35:17.833+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>0.0</startAmount>
-            <title>Card Visa</title>
-        </account>
-        <amount>-332.0</amount>
-        <article>
-            <title>Food</title>
-        </article>
-        <date>2019-11-19T22:15:24.680+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
-        </account>
-        <amount>-885.0</amount>
-        <article>
-            <title>Dinning room</title>
-        </article>
-        <date>2019-11-27T00:18:02.433+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
-        </account>
-        <amount>-244.0</amount>
-        <article>
-            <title>Food</title>
-        </article>
-        <date>2019-11-12T06:52:10.601+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
-        </account>
-        <amount>-842.0</amount>
-        <article>
-            <title>Dinning room</title>
-        </article>
-        <date>2019-12-02T09:41:07.785+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
-        </account>
-        <amount>-298.0</amount>
-        <article>
-            <title>Dinning room</title>
-        </article>
-        <date>2019-11-22T11:25:18.076+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
-        </account>
-        <amount>-245.0</amount>
-        <article>
-            <title>Food</title>
-        </article>
-        <date>2019-11-20T02:21:16.622+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
-        </account>
-        <amount>-900.0</amount>
-        <article>
-            <title>Food</title>
-        </article>
-        <date>2019-12-09T10:12:11.408+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
-        </account>
-        <amount>-80.0</amount>
-        <article>
-            <title>Dinning room</title>
-        </article>
-        <date>2019-11-16T18:59:34.652+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>0.0</startAmount>
-            <title>Card Visa</title>
-        </account>
-        <amount>-356.0</amount>
-        <article>
-            <title>Food</title>
-        </article>
-        <date>2019-11-27T09:12:18.506+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
-        </account>
-        <amount>-192.0</amount>
-        <article>
-            <title>Food</title>
-        </article>
-        <date>2019-11-14T13:23:26.006+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>0.0</startAmount>
-            <title>Card Visa</title>
-        </account>
-        <amount>-423.0</amount>
-        <article>
-            <title>Dinning room</title>
-        </article>
-        <date>2019-11-29T12:51:08.965+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
-        </account>
-        <amount>-193.0</amount>
-        <article>
-            <title>Food</title>
-        </article>
-        <date>2019-11-29T09:55:22.168+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
-        </account>
-        <amount>-514.0</amount>
-        <article>
-            <title>Food</title>
-        </article>
-        <date>2019-12-05T16:46:42.561+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>0.0</startAmount>
-            <title>Card Visa</title>
-        </account>
-        <amount>-940.0</amount>
-        <article>
-            <title>Dinning room</title>
-        </article>
-        <date>2019-11-13T21:39:59.720+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>0.0</startAmount>
-            <title>Card Visa</title>
-        </account>
-        <amount>-466.0</amount>
-        <article>
-            <title>Dinning room</title>
-        </article>
-        <date>2019-11-17T02:49:44.839+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>0.0</startAmount>
-            <title>Card Visa</title>
-        </account>
-        <amount>-635.0</amount>
-        <article>
-            <title>Food</title>
-        </article>
-        <date>2019-11-22T23:20:21.471+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>0.0</startAmount>
-            <title>Card Visa</title>
-        </account>
-        <amount>-38.0</amount>
-        <article>
-            <title>Dinning room</title>
-        </article>
-        <date>2019-11-13T20:29:02.939+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
-        </account>
-        <amount>-819.0</amount>
-        <article>
-            <title>Food</title>
-        </article>
-        <date>2019-12-04T21:14:56.628+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
-        </account>
-        <amount>-540.0</amount>
-        <article>
-            <title>Dinning room</title>
-        </article>
-        <date>2019-12-02T18:52:58.340+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
-        </account>
-        <amount>-801.0</amount>
-        <article>
-            <title>Dinning room</title>
-        </article>
-        <date>2019-11-21T10:26:34.221+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
-        </account>
-        <amount>-255.0</amount>
-        <article>
-            <title>Dinning room</title>
-        </article>
-        <date>2019-11-16T17:38:30.401+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>0.0</startAmount>
-            <title>Card Visa</title>
-        </account>
-        <amount>-306.0</amount>
-        <article>
-            <title>Dinning room</title>
-        </article>
-        <date>2019-11-14T05:14:25.842+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>0.0</startAmount>
-            <title>Card Visa</title>
-        </account>
-        <amount>-569.0</amount>
-        <article>
-            <title>Dinning room</title>
-        </article>
-        <date>2019-11-17T16:39:06.158+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
-        </account>
-        <amount>-375.0</amount>
-        <article>
-            <title>Dinning room</title>
-        </article>
-        <date>2019-11-26T05:20:31.198+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
-        </account>
-        <amount>-969.0</amount>
-        <article>
-            <title>Food</title>
-        </article>
-        <date>2019-12-09T17:02:31.266+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>0.0</startAmount>
-            <title>Card Visa</title>
-        </account>
-        <amount>-808.0</amount>
-        <article>
-            <title>Food</title>
-        </article>
-        <date>2019-11-10T11:41:43.082+02:00</date>
-        <notice></notice>
-    </transactions>
-    <transactions>
-        <account>
-            <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
-            </currency>
-            <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
-        </account>
-        <amount>-308.0</amount>
-        <article>
-            <title>Dinning room</title>
-        </article>
-        <date>2019-11-29T09:29:57.120+02:00</date>
+        <date>2019-11-25T18:06:11.125+02:00</date>
         <notice></notice>
     </transactions>
     <transfers>
-        <date>2019-12-09T22:07:05.020+02:00</date>
+        <date>2019-12-10T20:29:44.638+02:00</date>
         <fromAccount>
             <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -1055,9 +1187,11 @@
         <notice></notice>
         <toAccount>
             <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
             </currency>
             <startAmount>1000.0</startAmount>
             <title>Portmone</title>
@@ -1065,12 +1199,14 @@
         <toAmount>25000.0</toAmount>
     </transfers>
     <transfers>
-        <date>2019-12-09T22:07:05.020+02:00</date>
+        <date>2019-12-10T20:29:44.638+02:00</date>
         <fromAccount>
             <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -1079,9 +1215,11 @@
         <notice></notice>
         <toAccount>
             <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
             </currency>
             <startAmount>100000.0</startAmount>
             <title>Bank deposit (RUB)</title>
@@ -1089,12 +1227,14 @@
         <toAmount>3000.0</toAmount>
     </transfers>
     <transfers>
-        <date>2019-12-09T22:07:05.020+02:00</date>
+        <date>2019-12-10T20:29:44.638+02:00</date>
         <fromAccount>
             <currency>
-                <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
+                <base>true</base>
+                <code>RUB</code>
+                <on>true</on>
+                <rate>1.0</rate>
+                <title>Rubl</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -1104,8 +1244,10 @@
         <toAccount>
             <currency>
                 <base>false</base>
-                <on>false</on>
-                <rate>0.0</rate>
+                <code>USD</code>
+                <on>true</on>
+                <rate>65.0</rate>
+                <title>Dollar</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Bank deposit (USD)</title>
