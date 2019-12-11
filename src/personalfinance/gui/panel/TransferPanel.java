@@ -12,7 +12,8 @@ import personalfinance.settings.Style;
 public class TransferPanel extends RightPanel {
 
     public TransferPanel(MainFrame frame) {
-        super(frame, new TransferTableData(),"TRANSFERS", Style.ICON_PANEL_TRANSFERS, new FunctionsToolBar());
+        super(frame, new TransferTableData(),"TRANSFERS", Style.ICON_PANEL_TRANSFERS,
+                new JPanel[] {new FunctionsToolBar(), new FilterPanel(frame)});
     }
 
 }
