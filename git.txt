@@ -2,6 +2,7 @@ cd project folder
 git init 
 git add .
 // git config --global user.email "sagoth6@gmail.com"
+git restore path/to/file
 git commit -m "sdf"
 
 git status
