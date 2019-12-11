@@ -182,7 +182,7 @@ final public class Text {
         data.put("ABOUT", "<body style='font-size: 120%; text-align: center; width: 350px;'>"
                 + "<h1>Personal finance</h1><p><img src='file:images/main.png' /></p>"
                 + "<br />\"Creating a large Java project from scratch\""
-                + "<br /><a style='font-weight: bold;' href='https://srs.myrusakov.ru/javaproject'>https://srs.myrusakov.ru/javaproject</a></p>"
+                //+ "<br /><a style='font-weight: bold;' href='https://srs.myrusakov.ru/javaproject'>https://srs.myrusakov.ru/javaproject</a></p>"
                 + "<p>With respect, Voronov Stanislav!</p>"
                 + "<p>Copyright " + Calendar.getInstance().get(Calendar.YEAR) + " </p></body>");
 
