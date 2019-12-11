@@ -94,4 +94,8 @@ public final class MainFrame extends JFrame implements Refresh  {
         leftPanel.refresh();
         pack();
     }
+
+    public MainMenu getMenu() {
+        return mb;
+    }
 }
