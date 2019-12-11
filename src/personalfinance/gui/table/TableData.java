@@ -8,6 +8,7 @@ import javax.swing.ListSelectionModel;
 import personalfinance.gui.Refresh;
 //import personalfinance.gui.handler.FunctionsHandler;
 //import personalfinance.gui.menu.TablePopupMenu;
+import personalfinance.gui.menu.TablePopupMenu;
 import personalfinance.gui.table.model.MainTableModel;
 import personalfinance.gui.table.renderer.MainTableCellRenderer;
 import personalfinance.gui.table.renderer.TableHeaderIconRenderer;
@@ -17,14 +18,14 @@ import personalfinance.settings.Text;
 abstract public class TableData extends JTable implements Refresh {
 
    // private final FunctionsHandler handler;
-   // private final TablePopupMenu popup;
+    private final TablePopupMenu popup;
     private final String[] columns;
     private final ImageIcon[] icons;
 
     public TableData(MainTableModel model,String[] columns, ImageIcon[] icons) {
         super(model);
-        /*this.handler = handler;
-        this.popup = new TablePopupMenu(handler);*/
+        //this.handler = handler;
+        this.popup = new TablePopupMenu();
         this.columns = columns;
         this.icons = icons;
 
@@ -45,7 +46,7 @@ abstract public class TableData extends JTable implements Refresh {
 
         MainTableCellRenderer renderer = new MainTableCellRenderer();
         setDefaultRenderer(String.class, renderer);
-        //setComponentPopupMenu(popup);
+        setComponentPopupMenu(popup);
     }
 
     @Override
