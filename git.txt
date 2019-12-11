@@ -1,0 +1,19 @@
+cd project folder
+git init 
+git add .
+// git config --global user.email "sagoth6@gmail.com"
+git commit -m "sdf"
+
+git status
+git config --list
+git checkout master
+
+git remote add origin https://github.com/StanRavenman/FlipWords.git
+git push -u origin master
+
+git branch branchname
+git branch
+git branch -d(-D) branchname
+git checkout branchname
+
+git merge branchname
