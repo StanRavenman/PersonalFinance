@@ -9,6 +9,7 @@ import javax.swing.WindowConstants;
 import personalfinance.gui.dialog.AboutDialog;
 import personalfinance.gui.dialog.AccountAddEditDialog;
 import personalfinance.gui.dialog.ArticleAddEditDialog;
+import personalfinance.gui.dialog.TransactionAddEditDialog;
 import personalfinance.gui.menu.MainMenu;
 import personalfinance.gui.toolbar.MainToolBar;
 import personalfinance.settings.Style;
@@ -26,7 +27,7 @@ public final class MainFrame extends JFrame implements Refresh  {
 
     public MainFrame() {
         super(Text.get("PROGRAM_NAME"));
-        new ArticleAddEditDialog(this).showDialog();
+        new TransactionAddEditDialog(this).showDialog();
         setResizable(false);
         setIconImage(Style.ICON_MAIN.getImage());
         setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
