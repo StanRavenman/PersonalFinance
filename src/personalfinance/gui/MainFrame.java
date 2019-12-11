@@ -9,6 +9,8 @@ import javax.swing.WindowConstants;
 import personalfinance.gui.dialog.*;
 import personalfinance.gui.menu.MainMenu;
 import personalfinance.gui.panel.LeftPanel;
+import personalfinance.gui.panel.OverviewPanel;
+import personalfinance.gui.panel.RightPanel;
 import personalfinance.gui.toolbar.MainToolBar;
 import personalfinance.settings.Style;
 import personalfinance.settings.Text;
@@ -19,7 +21,7 @@ public final class MainFrame extends JFrame implements Refresh  {
     private final MainMenu mb;
     private final MainToolBar tb;
     private final LeftPanel leftPanel;
-    //private RightPanel rightPanel;
+    private RightPanel rightPanel;
 
 
 
@@ -52,7 +54,7 @@ public final class MainFrame extends JFrame implements Refresh  {
         leftPanel = new LeftPanel(this);
         add(leftPanel, constraints);
 
-        //setRightPanel(new OverviewPanel(this));
+        setRightPanel(new OverviewPanel(this));
 
         pack();
         setLocationRelativeTo(null);
@@ -73,15 +75,7 @@ public final class MainFrame extends JFrame implements Refresh  {
         return mb;
     }
 
-    public void setRightPanel(RightPanel panel) {
-        if (rightPanel != null) remove(rightPanel);
-        constraints.gridy = 1;
-        constraints.gridx = 1;
-        rightPanel = panel;
-        panel.setBorder(Style.BORDER_PANEL);
-        add(rightPanel, constraints);
-        pack();
-    }
+
 
     public RightPanel getRightPanel() {
         return rightPanel;*/
@@ -97,5 +91,15 @@ public final class MainFrame extends JFrame implements Refresh  {
 
     public MainMenu getMenu() {
         return mb;
+    }
+
+    public void setRightPanel(RightPanel panel) {
+        if (rightPanel != null) remove(rightPanel);
+        constraints.gridy = 1;
+        constraints.gridx = 1;
+        rightPanel = panel;
+        panel.setBorder(Style.BORDER_PANEL);
+        add(rightPanel, constraints);
+        pack();
     }
 }
