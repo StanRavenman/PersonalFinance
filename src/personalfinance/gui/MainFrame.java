@@ -8,6 +8,7 @@ import javax.swing.WindowConstants;
 
 import personalfinance.gui.dialog.*;
 import personalfinance.gui.menu.MainMenu;
+import personalfinance.gui.panel.LeftPanel;
 import personalfinance.gui.toolbar.MainToolBar;
 import personalfinance.settings.Style;
 import personalfinance.settings.Text;
@@ -17,9 +18,9 @@ public final class MainFrame extends JFrame implements Refresh  {
     private final GridBagConstraints constraints;
     private final MainMenu mb;
     private final MainToolBar tb;
-/*    private final LeftPanel leftPanel;
-    private RightPanel rightPanel;
-    */
+    private final LeftPanel leftPanel;
+    //private RightPanel rightPanel;
+
 
 
     public MainFrame() {
@@ -48,10 +49,10 @@ public final class MainFrame extends JFrame implements Refresh  {
         constraints.gridwidth = 1;
         constraints.anchor = GridBagConstraints.NORTH;
 
-/*        leftPanel = new LeftPanel(this);
+        leftPanel = new LeftPanel(this);
         add(leftPanel, constraints);
 
-        setRightPanel(new OverviewPanel(this));*/
+        //setRightPanel(new OverviewPanel(this));
 
         pack();
         setLocationRelativeTo(null);
@@ -90,7 +91,7 @@ public final class MainFrame extends JFrame implements Refresh  {
     public void refresh() {
         SwingUtilities.updateComponentTreeUI(this);
         mb.refresh();
-
+        leftPanel.refresh();
         pack();
     }
 }
