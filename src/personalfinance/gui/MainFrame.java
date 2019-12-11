@@ -52,7 +52,7 @@ public final class MainFrame extends JFrame implements Refresh  {
         leftPanel = new LeftPanel(this);
         add(leftPanel, constraints);
 
-        setRightPanel(new ArticlePanel(this));
+        setRightPanel(new TransactionPanel(this));
 
         pack();
         setLocationRelativeTo(null);
