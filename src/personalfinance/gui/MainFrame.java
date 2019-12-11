@@ -6,6 +6,7 @@ import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
 import javax.swing.WindowConstants;
 
+import personalfinance.gui.dialog.ConfirmDialog;
 import personalfinance.gui.menu.MainMenu;
 import personalfinance.gui.toolbar.MainToolBar;
 import personalfinance.settings.Style;
@@ -23,7 +24,7 @@ public final class MainFrame extends JFrame implements Refresh  {
 
     public MainFrame() {
         super(Text.get("PROGRAM_NAME"));
-
+        ConfirmDialog.show(this,"asdfasdfasdf","dsafasdfsadfasd");
         setResizable(false);
         setIconImage(Style.ICON_MAIN.getImage());
         setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
