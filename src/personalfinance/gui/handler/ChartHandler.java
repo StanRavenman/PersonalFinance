@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package personalfinance.gui.handler;
 
 import java.awt.event.ActionEvent;
@@ -10,10 +5,6 @@ import personalfinance.gui.MainFrame;
 import personalfinance.gui.panel.StatisticsPanel;
 import personalfinance.settings.HandlerCode;
 
-/**
- *
- * @author Admin
- */
 public class ChartHandler extends Handler {
     
     public ChartHandler(MainFrame frame) {

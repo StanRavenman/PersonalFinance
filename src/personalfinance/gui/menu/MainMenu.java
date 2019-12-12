@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package personalfinance.gui.menu;
 
 import java.awt.Toolkit;
@@ -28,10 +23,6 @@ import personalfinance.settings.Settings;
 import personalfinance.settings.Style;
 import personalfinance.settings.Text;
 
-/**
- *
- * @author Admin
- */
 public class MainMenu extends JMenuBar implements Refresh, EnableEditDelete {
 
     private JMenuItem menuEdit;

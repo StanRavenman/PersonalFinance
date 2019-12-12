@@ -1,18 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package personalfinance.gui.handler;
 
 import java.awt.event.ActionEvent;
 import personalfinance.gui.MainFrame;
 import personalfinance.settings.HandlerCode;
 
-/**
- *
- * @author Admin
- */
 public class MenuEditHandler extends Handler {
     
     public MenuEditHandler(MainFrame frame) {
@@ -21,7 +12,7 @@ public class MenuEditHandler extends Handler {
 
     @Override
     public void actionPerformed(ActionEvent ae) {
-       /* FunctionsHandler handler = frame.getRightPanel().getTableData().getFunctionHandler();
+        FunctionsHandler handler = frame.getRightPanel().getTableData().getFunctionHandler();
         switch (ae.getActionCommand()) {
             case HandlerCode.MENU_EDIT_ADD: {
                 handler.add();
@@ -35,7 +26,7 @@ public class MenuEditHandler extends Handler {
                 handler.delete();
             }
             
-        }*/
+        }
         super.actionPerformed(ae);
     }
     

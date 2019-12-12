@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package personalfinance.gui.handler;
 
 import java.awt.event.ActionEvent;
@@ -17,10 +12,6 @@ import personalfinance.gui.dialog.ErrorDialog;
 import personalfinance.saveload.SaveData;
 import personalfinance.settings.HandlerCode;
 
-/**
- *
- * @author Admin
- */
 public class AddEditDialogHandler extends Handler implements WindowListener, KeyListener {
 
     private final AddEditDialog dialog;
