@@ -2,44 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5730aab-24c5-41a9-a93a-4f3fb498a151" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/handler/AddEditDialogHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/handler/ChartHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/handler/FilterHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/handler/FunctionsHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/handler/Handler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/handler/MainToolBarHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/handler/MainWindowHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/handler/MenuEditHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/handler/MenuFileHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/handler/MenuHelpHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/handler/MenuSettingsHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/handler/MenuViewHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saves/default0.myrus" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personalfinance/gui/handler/AddEditDialogHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personalfinance/gui/handler/ChartHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personalfinance/gui/handler/FilterHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personalfinance/gui/handler/FunctionsHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personalfinance/gui/handler/Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personalfinance/gui/handler/MainToolBarHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personalfinance/gui/handler/MainWindowHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personalfinance/gui/handler/MenuEditHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personalfinance/gui/handler/MenuFileHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personalfinance/gui/handler/MenuHelpHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personalfinance/gui/handler/MenuSettingsHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personalfinance/gui/handler/MenuViewHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/MainFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/menu/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/menu/MainMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/panel/StatisticsPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/panel/StatisticsPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/PersonalFinance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/Chart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/MainDatePicker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/MainFileChooser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/dialog/AboutDialog$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/dialog/AboutDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/dialog/ConfirmDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/dialog/ErrorDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/handler/MenuSettingsHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/menu/TablePopupMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/menu/TablePopupMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/panel/AccountPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/panel/ArticlePanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/panel/CurrencyPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/panel/OverviewPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/panel/StatisticsTypePanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/panel/TransactionPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/panel/TransferPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/table/AccountTableData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/table/AccountTableData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/table/ArticleTableData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/table/CurrencyTableData$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/table/CurrencyTableData$TableCellOnOffRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/table/CurrencyTableData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/table/TableData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/table/TableData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/table/TransactionTableData$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/table/TransactionTableData$TableCellAmountRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/table/TransactionTableData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/table/TransferTableData$TableCellAmountRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/table/TransferTableData$TableCellAmountRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/table/TransferTableData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/table/TransferTableData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/toolbar/AbstractToolBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/toolbar/AbstractToolBar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/toolbar/FunctionsToolBar.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/toolbar/MainToolBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/toolbar/MainToolBar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/saveload/SaveData$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/saveload/SaveData$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/saveload/SaveData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/saveload/SaveData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saves/default.myrus" beforeDir="false" afterPath="$PROJECT_DIR$/saves/default.myrus" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/personalfinance/gui/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/gui/MainFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/personalfinance/gui/menu/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/gui/menu/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/personalfinance/gui/panel/StatisticsPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/gui/panel/StatisticsPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/settings/Format$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/settings/Format$MainDateFormatSymbols.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/settings/Format.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/settings/Text.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/gui/menu/TablePopupMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/gui/menu/TablePopupMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/gui/panel/AccountPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/gui/panel/AccountPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/gui/panel/ArticlePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/gui/panel/ArticlePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/gui/panel/CurrencyPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/gui/panel/CurrencyPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/gui/panel/TransactionPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/gui/panel/TransactionPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/gui/panel/TransferPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/gui/panel/TransferPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/gui/table/AccountTableData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/gui/table/AccountTableData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/gui/table/ArticleTableData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/gui/table/ArticleTableData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/gui/table/TableData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/gui/table/TableData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/gui/table/TransactionTableData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/gui/table/TransactionTableData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/gui/table/TransferTableData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/gui/table/TransferTableData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/gui/toolbar/AbstractToolBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/gui/toolbar/AbstractToolBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/gui/toolbar/FunctionsToolBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/gui/toolbar/FunctionsToolBar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/personalfinance/gui/toolbar/MainToolBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/gui/toolbar/MainToolBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/personalfinance/saveload/SaveData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/saveload/SaveData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/settings/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/settings/Text.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

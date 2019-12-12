@@ -6,8 +6,7 @@ import javax.swing.JPopupMenu;
 import javax.swing.JTable;
 import javax.swing.ListSelectionModel;
 import personalfinance.gui.Refresh;
-//import personalfinance.gui.handler.FunctionsHandler;
-//import personalfinance.gui.menu.TablePopupMenu;
+import personalfinance.gui.handler.FunctionsHandler;
 import personalfinance.gui.menu.TablePopupMenu;
 import personalfinance.gui.table.model.MainTableModel;
 import personalfinance.gui.table.renderer.MainTableCellRenderer;
@@ -15,17 +14,18 @@ import personalfinance.gui.table.renderer.TableHeaderIconRenderer;
 import personalfinance.settings.Style;
 import personalfinance.settings.Text;
 
+
 abstract public class TableData extends JTable implements Refresh {
 
-   // private final FunctionsHandler handler;
+    private final FunctionsHandler handler;
     private final TablePopupMenu popup;
     private final String[] columns;
     private final ImageIcon[] icons;
 
-    public TableData(MainTableModel model,String[] columns, ImageIcon[] icons) {
+    public TableData(MainTableModel model, FunctionsHandler handler, String[] columns, ImageIcon[] icons) {
         super(model);
-        //this.handler = handler;
-        this.popup = new TablePopupMenu();
+        this.handler = handler;
+        this.popup = new TablePopupMenu(handler);
         this.columns = columns;
         this.icons = icons;
 
@@ -37,8 +37,8 @@ abstract public class TableData extends JTable implements Refresh {
         setPreferredScrollableViewportSize(Style.DIMENSION_TABLE_SHOW_SIZE);
         setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 
-/*        addMouseListener(handler);
-        addKeyListener(handler);*/
+        addMouseListener(handler);
+        addKeyListener(handler);
 
         for (int i = 0; i < columns.length; i++) {
             getColumn(Text.get(columns[i])).setHeaderRenderer(new TableHeaderIconRenderer(icons[i]));
@@ -78,8 +78,8 @@ abstract public class TableData extends JTable implements Refresh {
 
     }
 
-/*    public FunctionsHandler getFunctionHandler() {
+    public FunctionsHandler getFunctionHandler() {
         return handler;
-    }*/
+    }
 
 }

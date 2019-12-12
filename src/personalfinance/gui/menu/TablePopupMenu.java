@@ -3,18 +3,18 @@ package personalfinance.gui.menu;
 import javax.swing.JMenuItem;
 import javax.swing.JPopupMenu;
 import personalfinance.gui.Refresh;
-//import personalfinance.gui.handler.FunctionsHandler;
+import personalfinance.gui.handler.FunctionsHandler;
 import personalfinance.settings.HandlerCode;
 import personalfinance.settings.Style;
 import personalfinance.settings.Text;
 
 public class TablePopupMenu extends JPopupMenu implements Refresh {
 
-    //private final FunctionsHandler handler;
+    private final FunctionsHandler handler;
 
-    public TablePopupMenu() {
+    public TablePopupMenu(FunctionsHandler handler) {
         super();
-        //this.handler = handler;
+        this.handler = handler;
         init();
     }
 
@@ -30,8 +30,8 @@ public class TablePopupMenu extends JPopupMenu implements Refresh {
         editItem.setActionCommand(HandlerCode.EDIT);
         deleteItem.setActionCommand(HandlerCode.DELETE);
 
-        /*editItem.addActionListener(handler);
-        deleteItem.addActionListener(handler);*/
+        editItem.addActionListener(handler);
+        deleteItem.addActionListener(handler);
 
         editItem.setIcon(Style.ICON_MENU_POPUP_EDIT);
         deleteItem.setIcon(Style.ICON_MENU_POPUP_DELETE);
