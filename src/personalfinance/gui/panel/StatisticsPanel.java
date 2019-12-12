@@ -18,7 +18,7 @@ public class StatisticsPanel extends RightPanel {
                 new JPanel[]{
                         new FilterPanel(frame),
                         //new StatisticsTypePanel(frame, "CHART_INCOME"),
-                        new Chart(Statistics.getDataForChartOnExpArticles(), "CHART_INCOME", SaveData.getInstance().getBaseCurrency().getCode()).getPanel()
+                        new Chart(Statistics.getDataForChartOnIncomeArticles(), "CHART_INCOME", SaveData.getInstance().getBaseCurrency().getCode()).getPanel()
                 });
     }
 
