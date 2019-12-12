@@ -24,7 +24,7 @@ public final class MainFrame extends JFrame implements Refresh {
     private final MainToolBar tb;
 
     public MainFrame() {
-        super(Text.get("PROGRAMM_NAME"));
+        super(Text.get("PROGRAM_NAME"));
 
         setResizable(false);
         setIconImage(Style.ICON_MAIN.getImage());

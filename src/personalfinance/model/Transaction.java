@@ -3,12 +3,7 @@ package personalfinance.model;
 import java.util.Date;
 import personalfinance.exception.ModelException;
 import personalfinance.saveload.SaveData;
-//import personalfinance.saveload.SaveData;
 
-/**
- *
- * @author Admin
- */
 public class Transaction extends Common {
 
     private Account account;

@@ -3,8 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="e5730aab-24c5-41a9-a93a-4f3fb498a151" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/menu/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/menu/MainMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saves/settings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/saves/settings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/panel/RightPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/panel/RightPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/panel/RightPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/panel/RightPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/panel/StatisticsTypePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/panel/StatisticsTypePanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/settings/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/settings/Text.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/gui/panel/StatisticsTypePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/gui/panel/StatisticsTypePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/model/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/model/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/model/Transfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/model/Transfer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/settings/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/settings/Text.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

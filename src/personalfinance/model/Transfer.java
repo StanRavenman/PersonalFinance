@@ -4,7 +4,6 @@ package personalfinance.model;
 import java.util.Date;
 import personalfinance.exception.ModelException;
 import personalfinance.saveload.SaveData;
-//import personalfinance.saveload.SaveData;
 
 
 public class Transfer extends Common {

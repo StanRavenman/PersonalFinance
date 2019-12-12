@@ -1,17 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package personalfinance.settings;
 
 import java.util.Calendar;
 import java.util.HashMap;
 
-/**
- *
- * @author Admin
- */
 final public class Text {
 
     private static final HashMap<String, String> data = new HashMap();
@@ -25,7 +16,7 @@ final public class Text {
     public static String[] getMonths() {
         String[] months = new String[12];
         months[0] = get("JANUARY");
-        months[1] = get("FEBRUAR");
+        months[1] = get("FEBRUARY");
         months[2] = get("MARCH");
         months[3] = get("APRIL");
         months[4] = get("MAY");
@@ -200,7 +191,7 @@ final public class Text {
             data.put("PROGRAM_NAME", "Personal Finance");
 
             data.put("JANUARY", "January");
-            data.put("FEBRUARY", "Februar");
+            data.put("FEBRUARY", "February");
             data.put("MARCH", "March");
             data.put("APRIL", "April");
             data.put("MAY", "May");
