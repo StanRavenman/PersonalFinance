@@ -3,25 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e5730aab-24c5-41a9-a93a-4f3fb498a151" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/handler/AddEditDialogHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/handler/AddEditDialogHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/handler/ChartHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/handler/ChartHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/handler/FilterHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/handler/FilterHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/handler/FunctionsHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/handler/FunctionsHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/handler/MainToolBarHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/handler/MainToolBarHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/handler/MainWindowHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/handler/MainWindowHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/handler/MenuEditHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/handler/MenuEditHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/handler/MenuSettingsHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/handler/MenuSettingsHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/handler/MenuViewHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/handler/MenuViewHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/menu/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/gui/menu/MainMenu.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/saves/settings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/saves/settings.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/personalfinance/gui/handler/AddEditDialogHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/gui/handler/AddEditDialogHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/personalfinance/gui/handler/ChartHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/gui/handler/ChartHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/personalfinance/gui/handler/FilterHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/gui/handler/FilterHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/personalfinance/gui/handler/FunctionsHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/gui/handler/FunctionsHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/personalfinance/gui/handler/MainToolBarHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/gui/handler/MainToolBarHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/personalfinance/gui/handler/MainWindowHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/gui/handler/MainWindowHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/personalfinance/gui/handler/MenuEditHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/gui/handler/MenuEditHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/personalfinance/gui/handler/MenuSettingsHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/gui/handler/MenuSettingsHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/personalfinance/gui/handler/MenuViewHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/gui/handler/MenuViewHandler.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
