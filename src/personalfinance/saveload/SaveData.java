@@ -41,9 +41,6 @@ public final class SaveData {
         transfers.clear();
     }
 
-
-
-
     private void sort() {
         this.articles.sort((Article a, Article a1) -> a.getTitle().compareToIgnoreCase(a1.getTitle()));
         this.accounts.sort((Account a, Account a1) -> a.getTitle().compareToIgnoreCase(a1.getTitle()));
@@ -62,9 +59,6 @@ public final class SaveData {
             }
         });
     }
-
-
-
 
     public void save() {
         SaveLoad.save(this);
@@ -201,12 +195,10 @@ public final class SaveData {
     private List getRef(Common c) {
         if (c instanceof Account) return accounts;
         else if (c instanceof Article) return articles;
-        else if (c instanceof personalfinance.model.Currency) return currencies;
+        else if (c instanceof Currency) return currencies;
         else if (c instanceof Transaction) return transactions;
         else if (c instanceof Transfer) return transfers;
         return null;
     }
 
-/*    public void edit(personalfinance.model.Common common, personalfinance.model.Common commonFromForm) {
-    }*/
 }

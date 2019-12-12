@@ -5,26 +5,26 @@ import java.awt.GridBagLayout;
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
 import javax.swing.WindowConstants;
-
-import personalfinance.gui.dialog.*;
+import personalfinance.gui.handler.MainToolBarHandler;
+import personalfinance.gui.handler.MainWindowHandler;
 import personalfinance.gui.menu.MainMenu;
-import personalfinance.gui.panel.*;
+import personalfinance.gui.panel.LeftPanel;
+import personalfinance.gui.panel.OverviewPanel;
+import personalfinance.gui.panel.RightPanel;
 import personalfinance.gui.toolbar.MainToolBar;
 import personalfinance.settings.Style;
 import personalfinance.settings.Text;
 
-public final class MainFrame extends JFrame implements Refresh  {
+public final class MainFrame extends JFrame implements Refresh {
 
     private final GridBagConstraints constraints;
     private final MainMenu mb;
-    private final MainToolBar tb;
     private final LeftPanel leftPanel;
     private RightPanel rightPanel;
-
-
+    private final MainToolBar tb;
 
     public MainFrame() {
-        super(Text.get("PROGRAM_NAME"));
+        super(Text.get("PROGRAMM_NAME"));
 
         setResizable(false);
         setIconImage(Style.ICON_MAIN.getImage());
@@ -41,8 +41,7 @@ public final class MainFrame extends JFrame implements Refresh  {
         constraints.gridy = 0;
         constraints.gridwidth = 2;
 
-
-        tb = new MainToolBar();
+        tb = new MainToolBar(new MainToolBarHandler(this));
         add(tb, constraints);
 
         constraints.gridy = 1;
@@ -52,11 +51,12 @@ public final class MainFrame extends JFrame implements Refresh  {
         leftPanel = new LeftPanel(this);
         add(leftPanel, constraints);
 
-        setRightPanel(new StatisticsPanel(this));
+        setRightPanel(new OverviewPanel(this));
+
         pack();
         setLocationRelativeTo(null);
 
- /*       addWindowListener(new MainWindowHandler());
+        addWindowListener(new MainWindowHandler());
     }
 
     @Override
@@ -65,24 +65,6 @@ public final class MainFrame extends JFrame implements Refresh  {
         tb.refresh();
         leftPanel.refresh();
         rightPanel.refresh();
-        pack();
-    }
-
-    public MainMenu getMenu() {
-        return mb;
-    }
-
-
-
-    public RightPanel getRightPanel() {
-        return rightPanel;*/
-    }
-
-    @Override
-    public void refresh() {
-        SwingUtilities.updateComponentTreeUI(this);
-        mb.refresh();
-        leftPanel.refresh();
         pack();
     }
 
@@ -99,4 +81,9 @@ public final class MainFrame extends JFrame implements Refresh  {
         add(rightPanel, constraints);
         pack();
     }
+
+    public RightPanel getRightPanel() {
+        return rightPanel;
+    }
+
 }
