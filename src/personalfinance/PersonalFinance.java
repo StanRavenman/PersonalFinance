@@ -44,12 +44,12 @@ public class PersonalFinance {
 
 
     private static void testModel() throws ModelException {
-        Currency c1 = new Currency("Rubl", "RUB", 1, true, true);
+        Currency c1 = new Currency("Ruble", "RUB", 1, true, true);
         Currency c2 = new Currency("Dollar", "USD", 65, true, false);
         Currency c3 = new Currency("Euro", "EUR", 75, false, false);
-        Currency c4 = new Currency("Grivna", "UAH", 2.5, false, false);
+        Currency c4 = new Currency("Hryvnia", "UAH", 2.5, false, false);
 
-        Account ac1 = new Account("Portmone", c1, 1000);
+        Account ac1 = new Account("Purse", c1, 1000);
         Account ac2 = new Account("Card Visa", c1, 0);
         Account ac3 = new Account("Bank deposit (RUB)", c1, 100000);
         Account ac4 = new Account("Bank deposit (USD)", c2, 0);

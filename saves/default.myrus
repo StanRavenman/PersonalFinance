@@ -6,7 +6,7 @@
             <code>RUB</code>
             <on>true</on>
             <rate>1.0</rate>
-            <title>Rubl</title>
+            <title>Ruble</title>
         </currency>
         <startAmount>100000.0</startAmount>
         <title>Bank deposit (RUB)</title>
@@ -16,7 +16,7 @@
             <base>false</base>
             <code>USD</code>
             <on>true</on>
-            <rate>65.0</rate>
+            <rate>63.5653</rate>
             <title>Dollar</title>
         </currency>
         <startAmount>0.0</startAmount>
@@ -28,7 +28,7 @@
             <code>RUB</code>
             <on>true</on>
             <rate>1.0</rate>
-            <title>Rubl</title>
+            <title>Ruble</title>
         </currency>
         <startAmount>0.0</startAmount>
         <title>Card Visa</title>
@@ -39,10 +39,10 @@
             <code>RUB</code>
             <on>true</on>
             <rate>1.0</rate>
-            <title>Rubl</title>
+            <title>Ruble</title>
         </currency>
         <startAmount>1000.0</startAmount>
-        <title>Portmone</title>
+        <title>Purse</title>
     </accounts>
     <articles>
         <title>Deposit interests</title>
@@ -64,28 +64,28 @@
         <code>RUB</code>
         <on>true</on>
         <rate>1.0</rate>
-        <title>Rubl</title>
+        <title>Ruble</title>
     </currency>
     <currency>
         <base>false</base>
         <code>USD</code>
         <on>true</on>
-        <rate>65.0</rate>
+        <rate>63.5653</rate>
         <title>Dollar</title>
     </currency>
     <currency>
         <base>false</base>
         <code>EUR</code>
         <on>false</on>
-        <rate>75.0</rate>
+        <rate>70.4558</rate>
         <title>Euro</title>
     </currency>
     <currency>
         <base>false</base>
         <code>UAH</code>
         <on>false</on>
-        <rate>2.5</rate>
-        <title>Grivna</title>
+        <rate>2.6932</rate>
+        <title>Hryvnia</title>
     </currency>
     <transactions>
         <account>
@@ -94,7 +94,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -113,7 +113,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -132,10 +132,10 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
+            <title>Purse</title>
         </account>
         <amount>-5500.0</amount>
         <article>
@@ -151,10 +151,10 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
+            <title>Purse</title>
         </account>
         <amount>-4000.0</amount>
         <article>
@@ -170,16 +170,16 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>100000.0</startAmount>
             <title>Bank deposit (RUB)</title>
         </account>
-        <amount>1000.0</amount>
+        <amount>2000.0</amount>
         <article>
             <title>Deposit interests</title>
         </article>
-        <date>2019-12-10T20:29:44.637+02:00</date>
+        <date>2019-12-10T12:00:00+02:00</date>
         <notice></notice>
     </transactions>
     <transactions>
@@ -189,7 +189,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -208,7 +208,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -227,7 +227,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -246,10 +246,10 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
+            <title>Purse</title>
         </account>
         <amount>-637.0</amount>
         <article>
@@ -265,7 +265,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -284,10 +284,10 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
+            <title>Purse</title>
         </account>
         <amount>-836.0</amount>
         <article>
@@ -303,7 +303,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -322,7 +322,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -341,10 +341,10 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
+            <title>Purse</title>
         </account>
         <amount>-952.0</amount>
         <article>
@@ -360,10 +360,10 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
+            <title>Purse</title>
         </account>
         <amount>-731.0</amount>
         <article>
@@ -379,10 +379,10 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
+            <title>Purse</title>
         </account>
         <amount>-795.0</amount>
         <article>
@@ -398,7 +398,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -417,10 +417,10 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
+            <title>Purse</title>
         </account>
         <amount>-644.0</amount>
         <article>
@@ -436,7 +436,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -455,7 +455,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -474,10 +474,10 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
+            <title>Purse</title>
         </account>
         <amount>-42.0</amount>
         <article>
@@ -493,7 +493,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -512,7 +512,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -531,10 +531,10 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
+            <title>Purse</title>
         </account>
         <amount>-602.0</amount>
         <article>
@@ -550,10 +550,10 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
+            <title>Purse</title>
         </account>
         <amount>-351.0</amount>
         <article>
@@ -569,7 +569,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -588,7 +588,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -607,7 +607,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -626,7 +626,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -645,7 +645,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -664,10 +664,10 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
+            <title>Purse</title>
         </account>
         <amount>-124.0</amount>
         <article>
@@ -683,10 +683,10 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
+            <title>Purse</title>
         </account>
         <amount>-449.0</amount>
         <article>
@@ -702,7 +702,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -721,7 +721,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -740,7 +740,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -759,7 +759,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -778,10 +778,10 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
+            <title>Purse</title>
         </account>
         <amount>-269.0</amount>
         <article>
@@ -797,7 +797,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -816,7 +816,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -835,7 +835,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -854,7 +854,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -873,10 +873,10 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
+            <title>Purse</title>
         </account>
         <amount>-92.0</amount>
         <article>
@@ -892,7 +892,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -911,7 +911,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -930,10 +930,10 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
+            <title>Purse</title>
         </account>
         <amount>-968.0</amount>
         <article>
@@ -949,10 +949,10 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
+            <title>Purse</title>
         </account>
         <amount>-243.0</amount>
         <article>
@@ -968,7 +968,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -987,7 +987,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -1006,10 +1006,10 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
+            <title>Purse</title>
         </account>
         <amount>-129.0</amount>
         <article>
@@ -1025,7 +1025,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -1044,10 +1044,10 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
+            <title>Purse</title>
         </account>
         <amount>-193.0</amount>
         <article>
@@ -1063,7 +1063,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -1082,7 +1082,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -1101,10 +1101,10 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
+            <title>Purse</title>
         </account>
         <amount>-24.0</amount>
         <article>
@@ -1120,7 +1120,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -1139,7 +1139,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -1158,7 +1158,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>100000.0</startAmount>
             <title>Bank deposit (RUB)</title>
@@ -1178,7 +1178,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -1191,10 +1191,10 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>1000.0</startAmount>
-            <title>Portmone</title>
+            <title>Purse</title>
         </toAccount>
         <toAmount>25000.0</toAmount>
     </transfers>
@@ -1206,7 +1206,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
@@ -1219,7 +1219,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>100000.0</startAmount>
             <title>Bank deposit (RUB)</title>
@@ -1234,7 +1234,7 @@
                 <code>RUB</code>
                 <on>true</on>
                 <rate>1.0</rate>
-                <title>Rubl</title>
+                <title>Ruble</title>
             </currency>
             <startAmount>0.0</startAmount>
             <title>Card Visa</title>
