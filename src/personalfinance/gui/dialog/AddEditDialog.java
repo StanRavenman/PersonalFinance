@@ -2,7 +2,6 @@ package personalfinance.gui.dialog;
 
 import java.awt.BorderLayout;
 import java.awt.Component;
-import java.awt.event.ActionListener;
 import java.util.Date;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -22,7 +21,7 @@ import org.jdatepicker.impl.UtilDateModel;
 import personalfinance.exception.ModelException;
 import personalfinance.gui.MainButton;
 import personalfinance.gui.MainFrame;
-//import personalfinance.gui.handler.AddEditDialogHandler;
+import personalfinance.gui.handler.AddEditDialogHandler;
 import personalfinance.model.Common;
 import personalfinance.settings.HandlerCode;
 import personalfinance.settings.Style;
@@ -30,7 +29,7 @@ import personalfinance.settings.Text;
 
 abstract public class AddEditDialog extends JDialog {
 
-    //private final MainFrame frame;
+    private final MainFrame frame;
     protected LinkedHashMap<String, JComponent> components = new LinkedHashMap();
     protected LinkedHashMap<String, ImageIcon> icons = new LinkedHashMap();
     protected LinkedHashMap<String, Object> values = new LinkedHashMap();
@@ -38,8 +37,8 @@ abstract public class AddEditDialog extends JDialog {
 
     public AddEditDialog(MainFrame frame) {
         super(frame, Text.get("ADD"), true);
-        /*this.frame = frame;
-        addWindowListener(new AddEditDialogHandler(frame, this));*/
+        this.frame = frame;
+        addWindowListener(new AddEditDialogHandler(frame, this));
         setResizable(false);
     }
 
@@ -106,7 +105,7 @@ abstract public class AddEditDialog extends JDialog {
             else if (component instanceof JDatePickerImpl) {
                 if (values.containsKey(key)) ((UtilDateModel) ((JDatePickerImpl) component).getModel()).setValue((Date) values.get(key));
             }
-            //component.addKeyListener(new AddEditDialogHandler(frame, this));
+            component.addKeyListener(new AddEditDialogHandler(frame, this));
             component.setAlignmentX(JComponent.LEFT_ALIGNMENT);
             add(label);
             add(Box.createVerticalStrut(Style.PADDING_DIALOG));
@@ -114,13 +113,13 @@ abstract public class AddEditDialog extends JDialog {
             add(Box.createVerticalStrut(Style.PADDING_DIALOG));
         }
 
-        MainButton ok = new MainButton(Text.get("ADD"), Style.ICON_OK,null, HandlerCode.ADD);
+        MainButton ok = new MainButton(Text.get("ADD"), Style.ICON_OK, new AddEditDialogHandler(frame, this), HandlerCode.ADD);
         if (!isAdd()) {
             ok.setActionCommand(HandlerCode.EDIT);
             ok.setText(Text.get("EDIT"));
         }
 
-        MainButton cancel = new MainButton(Text.get("CANCEL"), Style.ICON_CANCEL, null, HandlerCode.CANCEL);
+        MainButton cancel = new MainButton(Text.get("CANCEL"), Style.ICON_CANCEL, new AddEditDialogHandler(frame, this), HandlerCode.CANCEL);
 
         JPanel panelButtons = new JPanel();
         panelButtons.setLayout(new BorderLayout());
