@@ -64,7 +64,7 @@ model.Article, Account, Currency, Transaction, Transfer,Statistics
 model.Filter
 
 2_6
-saveload.SaveData
+saveload.SaveData singleton
 model.Statistics
 
 
