@@ -49,5 +49,22 @@
 	- обработка событий диалоговых окон
 	- обработка событий всплывающего меню
 
+2_2
+PersonalFinance
+settings.Text
+
+2_3
+model.Common
+exception.ModelException
+
+2_4
+model.Article, Account, Currency, Transaction, Transfer,Statistics
+
+2_5
+model.Filter
+
+2_6
+saveload.SaveData
+model.Statistics
 
 

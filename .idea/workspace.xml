@@ -3,11 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e5730aab-24c5-41a9-a93a-4f3fb498a151" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git.txt" beforeDir="false" afterPath="$PROJECT_DIR$/git.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/PersonalFinance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersonalFinance/personalfinance/PersonalFinance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saves/default.myrus" beforeDir="false" afterPath="$PROJECT_DIR$/saves/default.myrus" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saves/1.myrus" beforeDir="false" afterPath="$PROJECT_DIR$/saves/1.myrus" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saves/default0.myrus" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/saves/settings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/saves/settings.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/personalfinance/PersonalFinance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/PersonalFinance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/план.txt" beforeDir="false" afterPath="$PROJECT_DIR$/план.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

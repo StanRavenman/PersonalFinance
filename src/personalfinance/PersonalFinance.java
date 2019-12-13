@@ -43,7 +43,7 @@ public class PersonalFinance {
     }
 
 
-    private static void testModel() throws ModelException {
+/*    private static void testModel() throws ModelException {
         Currency c1 = new Currency("Ruble", "RUB", 1, true, true);
         Currency c2 = new Currency("Dollar", "USD", 65, true, false);
         Currency c3 = new Currency("Euro", "EUR", 75, false, false);
@@ -118,6 +118,6 @@ public class PersonalFinance {
         sd.save();
         //sd.load();
         System.out.println(sd);
-    }
+    }*/
 
 }
